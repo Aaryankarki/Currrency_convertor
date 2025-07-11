@@ -8,6 +8,8 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+
+  //variable and controller has been used
   late double result = 0;
   final TextEditingController textEditingController = TextEditingController();
 
