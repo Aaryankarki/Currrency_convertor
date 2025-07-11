@@ -50,6 +50,7 @@ class _HomePageState extends State<HomePage> {
                 keyboardType: TextInputType.numberWithOptions(decimal: true),
               ),
               SizedBox(height: 20),
+              //text button
               TextButton(
                 onPressed: () {
                   print(textEditingController.text);
